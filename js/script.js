@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const hasilDiv = document.getElementById("output");
 
-  // 🧠 Saat halaman dimuat, cek apakah ada hasil yang disimpan
+  // Saat halaman dimuat, cek apakah ada hasil yang disimpan
   const savedResult = localStorage.getItem("hasilKirim");
   if (savedResult) {
     hasilDiv.innerHTML = savedResult;
